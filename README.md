@@ -1,3 +1,65 @@
 # Caixa-Eletr-nico
 Caixa Eletrônico 
- Relatório de Testes GRUPO NN – Execução do programa GRUPO_NN_codigo.c (saldo inicial fixo: R$ 2000). Compilação: gcc GRUPO_NN_codigo.c -o caixa Teste 1: valor 50 Saída esperada: 1 nota de R$ 50. === CAIXA ELETRONICO === Saldo disponivel: R$ 2000 Digite o valor que deseja sacar: 50 Saque realizado com sucesso! Distribuicao de notas:- 1 nota(s) de R$ 50 Resultado: conforme o esperado. Teste 2: valor 95 Saída esperada: 1 nota de R$ 50, 2 notas de R$ 20 e 1 nota de R$ 5. === CAIXA ELETRONICO === Saldo disponivel: R$ 2000 Digite o valor que deseja sacar: 95 Saque realizado com sucesso! Distribuicao de notas:- 1 nota(s) de R$ 50- 2 nota(s) de R$ 20- 1 nota(s) de R$ 5 Resultado: conforme o esperado. Teste 3: valor 123 Saída esperada: 1 nota de R$ 100, 1 de R$ 20, 1 de R$ 2 e 1 de R$ 1. === CAIXA ELETRONICO === Saldo disponivel: R$ 2000 Digite o valor que deseja sacar: 123 Saque realizado com sucesso! Distribuicao de notas:- 1 nota(s) de R$ 100- 1 nota(s) de R$ 20- 1 nota(s) de R$ 2- 1 nota(s) de R$ 1 Resultado: conforme o esperado.Teste 4: valor 1005 Saída esperada: 10 notas de R$ 100 e 1 nota de R$ 5. === CAIXA ELETRONICO === Saldo disponivel: R$ 2000 Digite o valor que deseja sacar: 1005 Saque realizado com sucesso! Distribuicao de notas:- 10 nota(s) de R$ 100- 1 nota(s) de R$ 5 Resultado: conforme o esperado. Teste 5 (cenário inválido: saldo insuficiente): valor 2500 Saída esperada: Mensagem de erro de saldo insuficiente (saldo de R$ 2000). === CAIXA ELETRONICO === Saldo disponivel: R$ 2000 Digite o valor que deseja sacar: 2500 Erro: Saldo insuficiente para realizar esta operacao. Resultado: conforme o esperado. Teste extra (entrada não numérica): valor abc Saída esperada: Mensagem de erro de entrada inválida. === CAIXA ELETRONICO === Saldo disponivel: R$ 2000 Digite o valor que deseja sacar: abc Erro: entrada invalida. Digite apenas numeros inteiros. Resultado: conforme o esperado.
+ Relatório de Testes GRUPO NN 
+ – Execução do programa GRUPO_NN_codigo.c
+ (saldo inicial fixo: R$ 2000). 
+ Compilação: gcc GRUPO_NN_codigo.c -o
+ 
+ caixa Teste 1:
+ valor 50 Saída esperada: 1 nota de R$ 50.
+ 
+ === CAIXA ELETRONICO === 
+ Saldo disponivel: R$ 2000
+ Digite o valor que deseja sacar: 50 Saque realizado com sucesso! 
+ Distribuicao de notas:- 1 nota(s) de R$ 50
+ Resultado: conforme o esperado.
+ 
+ Teste 2: valor 95 
+ Saída esperada: 1 nota de R$ 50, 2 notas de R$ 20 e 1 nota de R$ 5.
+ 
+ === CAIXA ELETRONICO ===
+ Saldo disponivel: R$ 2000 
+ Digite o valor que deseja sacar: 95 Saque realizado com sucesso! 
+ Distribuicao de notas:- 1 nota(s) de R$ 50- 2 nota(s) de R$ 20- 1 nota(s) de R$ 5 
+ Resultado: conforme o esperado. 
+ 
+ Teste 3: valor 123 
+ Saída esperada: 1 nota de R$ 100, 1 de R$ 20, 1 de R$ 2 e 1 de R$ 1.
+ 
+ === CAIXA ELETRONICO === 
+ Saldo disponivel: R$ 2000 
+ Digite o valor que deseja sacar: 123 
+ Saque realizado com sucesso!
+ Distribuicao de notas:- 1 nota(s) de R$ 100- 1 nota(s) de R$ 20- 1 nota(s) de R$ 2- 1 nota(s) de R$ 1 
+ Resultado: conforme o esperado.
+ 
+ Teste 4: 
+ valor 1005 
+ Saída esperada: 10 notas de R$ 100 e 1 nota de R$ 5. 
+ 
+ === CAIXA ELETRONICO === 
+ Saldo disponivel: R$ 2000
+ Digite o valor que deseja sacar: 1005
+ Saque realizado com sucesso! 
+ Distribuicao de notas:- 10 nota(s) de R$ 100- 1 nota(s) de R$ 5
+ Resultado: conforme o esperado.
+ 
+ Teste 5 (cenário inválido: saldo insuficiente): 
+ valor 2500 Saída esperada:
+ Mensagem de erro de saldo insuficiente (saldo de R$ 2000). 
+ 
+ === CAIXA ELETRONICO === 
+ Saldo disponivel: R$ 2000 
+ Digite o valor que deseja sacar: 2500 
+ Erro: Saldo insuficiente para realizar esta operacao. 
+ Resultado: conforme o esperado. 
+ 
+ Teste extra (entrada não numérica): valor abc
+ Saída esperada: Mensagem de erro de entrada inválida. 
+ 
+ === CAIXA ELETRONICO ===
+ Saldo disponivel: R$ 2000
+ Digite o valor que deseja sacar: abc
+ Erro: entrada invalida. 
+ Digite apenas numeros inteiros. 
+ Resultado: conforme o esperado.
