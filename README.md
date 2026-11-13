@@ -1,7 +1,7 @@
 # Caixa-Eletr-nico
 Caixa Eletrônico 
  Relatório de Testes GRUPO NN 
- – Execução do programa GRUPO_NN_codigo.c
+ – Execução do programa GRUPO_NNN_codigo.c
  (saldo inicial fixo: R$ 2000). 
  Compilação: gcc GRUPO_NN_codigo.c -o
  
